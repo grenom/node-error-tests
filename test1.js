@@ -1,6 +1,4 @@
 const EventEmitter = require('events');
-const { rejects } = require('node:assert');
-const { resolve } = require('node:path');
 class MyEmitter extends EventEmitter {}
 let E = new MyEmitter()
 
